@@ -7,7 +7,7 @@ class Car{
         switch (this.color) {
             case "red":
                 redColorCarCount ++;
-                break;
+                break;      
         }
         carCount++;
     }
@@ -18,7 +18,8 @@ class Car{
         return redColorCarCount;
     }
 }
-public class CarTest {
+public class CarTest
+ {
     public static void main(String[] args) {
         Car c1 = new Car("red");
         Car c2 = new Car("blue");
